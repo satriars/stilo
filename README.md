@@ -1,15 +1,11 @@
-# Laravel 10 - Toko Online
-
-## Screenshots
-
-![preview img](/preview.png)
+# tutorial
 
 ## Donwload
 
 Clone Projek
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/toko-online-laravel.git nama_projek
+  git clone https://github.com/satriars/stilo.git
 ```
 
 Masuk ke folder dengan perintah
