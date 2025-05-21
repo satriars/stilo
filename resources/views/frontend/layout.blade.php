@@ -47,17 +47,8 @@
                                 <ul>
                                     <li><a href="/">home</a>
                                         <ul class="single-dropdown">
-                                            <li><a href="index.html">Fashion</a></li>
+                                            <li><a href="index.html">Fashion </a></li>
                                             <li><a href="index-fashion-2.html">Fashion style 2</a></li>
-                                            <li><a href="index-fruits.html">fruits</a></li>
-                                            <li><a href="index-book.html">book</a></li>
-                                            <li><a href="index-electronics.html">electronics</a></li>
-                                            <li><a href="index-electronics-2.html">electronics style 2</a></li>
-                                            <li><a href="index-food.html">food & drink</a></li>
-                                            <li><a href="index-furniture.html">furniture</a></li>
-                                            <li><a href="index-handicraft.html">handicraft</a></li>
-                                            <li><a target="_blank" href="index-smart-watch.html">smart watch</a></li>
-                                            <li><a href="index-sports.html">sports</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">pages</a>
@@ -127,7 +118,7 @@
                                 <i class="ti-shopping-cart"></i>
                                 <span class="shop-count-furniture green">{{ Cart::count() }}</span>
                             </a>
-                            <!-- @if (Cart::count() > 0)
+                             @if (Cart::count() > 0)
                                 <ul class="cart-dropdown">
                                     @foreach (Cart::content() as $item)
                                         @php
@@ -160,7 +151,7 @@
                                         <a class="cart-btn btn-hover" href="{{ url('orders/checkout') }}">checkout</a>
                                     </li>
                                 </ul>
-                            @endif -->
+                            @endif
                         </div>
                     </div>
                     <div class="row">
